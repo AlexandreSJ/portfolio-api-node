@@ -1,0 +1,44 @@
+{
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "name": "portfolio-api-node",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "server.ts",
+  "dependencies": {
+    "acorn": "^8.15.0",
+    "acorn-walk": "^8.3.4",
+    "arg": "^4.1.3",
+    "create-require": "^1.1.1",
+    "diff": "^4.0.2",
+    "dotenv": "^17.2.2",
+    "express": "^4.19.2",
+    "make-error": "^1.3.6",
+    "undici-types": "^7.12.0",
+    "v8-compile-cache-lib": "^3.0.1",
+    "yn": "^3.1.1"
+  },
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreSJ/portfolio-api-node.git"
+  },
+  "keywords": [],
+  "author": "AlexandreSJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandreSJ/portfolio-api-node/issues"
+  },
+  "homepage": "https://github.com/AlexandreSJ/portfolio-api-node#readme"
+}
